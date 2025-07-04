@@ -17,7 +17,7 @@ This project implements a real-time American Sign Language (ASL) alphabet recogn
 
 ## 🎯 Demo
 
-
+[🎬 Watch Demo Video](https://github.com/ancdefhgikhushi/sign_language_recognition/blob/main/demo/demo_video.mp4)
 
 ## 🏗️ Architecture
 The project uses a custom CNN architecture optimized for hand gesture recognition:
@@ -81,3 +81,101 @@ The project uses a custom CNN architecture optimized for hand gesture recognitio
 #### 2. Create a virtual environment
 
 #### 3. Install dependencies
+
+## 📊 Dataset Setup
+
+The project uses the ASL Alphabet dataset for training. You can either:
+
+1. **Download the pre-processed dataset** (recommended for quick start)
+
+2. **Use the custom data collection tool:**
+
+   ```bash
+   python src/data_collection.py
+   ```
+   This will collect 500 frames for each ASL alphabet class through your webcam.
+
+## 🔧 Usage
+
+### 1. Preprocess the data
+
+```bash
+python src/data_preprocessing.py
+```
+### 2. Train the CNN model
+
+```bash
+python src/model_training.py
+```
+
+### 3. Test the model
+
+```bash
+python src/model_testing.py
+```
+
+### 4. Run the real-time ASL recognition system
+
+```bash
+python src/realtime_detection.py
+```
+
+## 📈 Results
+
+• **Test Accuracy:** 98%
+
+• **Training Time:** Depends on hardware and number of frames
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Test Accuracy | 98.0% |
+| Precision | 97.8% |
+| Recall | 97.9% |
+| F1-Score | 97.8% |
+
+## 🛠️ Technical Details
+
+### Dependencies
+
+• **TensorFlow 2.16.1:** Deep learning framework
+
+• **OpenCV 4.8.1:** Computer vision operations
+
+• **MediaPipe 0.10.21:** Hand landmark detection
+
+• **NumPy 1.26.0:** Numerical computations
+
+• **Matplotlib 3.8.0:** Data visualization
+
+• **Scikit-learn 1.3.2:** Machine learning utilities
+
+• **Pillow 10.1.0:** Image processing
+
+## 🔮 Future Enhancements
+
+ • Add support for ASL words and phrases
+ 
+ • Implement gesture sequence recognition
+ 
+ • Add mobile app version
+ 
+ • Support for multiple hand detection
+ 
+ • Integration with speech synthesis
+ 
+ • Add more robust background handling
+
+
+
+
+
+
+
+
+
+
+   
+
+
