@@ -17,7 +17,7 @@ This project implements a real-time American Sign Language (ASL) alphabet recogn
 
 ## 🎯 Demo
 
-[🎬 Watch Demo Video](https://github.com/ancdefhgikhushi/sign_language_recognition/blob/main/demo/demo_video.mp4)
+[🎬 Watch Demo Video](https://github.com/ancdefhgikhushi/sign_language_recognition/tree/main/demo/demo_video.mp4)
 
 ## 🏗️ Architecture
 The project uses a custom CNN architecture optimized for hand gesture recognition:
